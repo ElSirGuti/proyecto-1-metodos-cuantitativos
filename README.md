@@ -2,6 +2,12 @@
 
 Este repositorio contiene el primer trabajo de la asignatura Métodos Cuantitativos
 
+# Enunciado
+
+## Ejercicio para terminal de 0, 2 y 4: Simulación de Colas
+
+Desarrolla un simulador de sistema de colas con múltiples servidores utilizando el algoritmo de Monte Carlo. El sistema debe permitir configurar el número de servidores, la tasa de llegada de clientes y la tasa de servicio. Calcula métricas como el tiempo promedio en el sistema y la utilización de los servidores.
+
 # Requisitos y Herramientas utilizadas
 
 ### **1. Python**
@@ -14,4 +20,12 @@ Para instalar SimPy, abra una terminal y ejecute el siguiente comando
 
 ```bash
 pip install simpy
+```
+
+### **3. Flet**
+
+Para instalar Flet, abra una terminal y ejecute el siguiente comando
+
+```bash
+pip install flet
 ```
