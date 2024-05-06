@@ -16,7 +16,7 @@ Este programa corre en Python por lo que necesitas tenerlo instalado en tu compu
 
 ### **2. SimPy**
 
-Para instalar SimPy, abra una terminal y ejecute el siguiente comando
+Para instalar SimPy, abra una terminal y ejecute el siguiente comando:
 
 ```bash
 pip install simpy
@@ -24,7 +24,7 @@ pip install simpy
 
 ### **3. Flet**
 
-Para instalar Flet, abra una terminal y ejecute el siguiente comando
+Para instalar Flet, abra una terminal y ejecute el siguiente comando:
 
 ```bash
 pip install flet
