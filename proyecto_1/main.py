@@ -1,4 +1,5 @@
 import flet as ft
+import simular
 
 
 def main(page: ft.Page):
@@ -44,7 +45,7 @@ def main(page: ft.Page):
         )
 
         page.add(ft.Row(controls=[
-            ft.ElevatedButton(text="Iniciar", color="green")
+            ft.ElevatedButton(text="Iniciar", color="green", on_click= algoritmo.simular(s,l,mu,n))
         ]))
 
         page.add(
