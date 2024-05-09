@@ -20,8 +20,8 @@ class Simulador:
         # Crear lista de clientes
         self.clientes = []
         for i in range(self.numero_clientes):
-            tiempo_llegada = np.log(np.random.rand()) / self.tasa_llegada
-            tiempo_servicio = np.log(np.random.rand()) / self.tasa_servicio
+            tiempo_llegada = -np.log(np.random.rand()) / self.tasa_llegada
+            tiempo_servicio = -np.log(np.random.rand()) / self.tasa_servicio
             cliente = Cliente(tiempo_llegada, tiempo_servicio)
             self.clientes.append(cliente)
 
